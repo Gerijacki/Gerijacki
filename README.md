@@ -77,8 +77,9 @@
 </div>
 
 ###
-
-<img align="right" height="150" src="https://i.pinimg.com/originals/a7/48/f9/a748f9b468b02aa3861b0678fe812dcc.gif"  />
+<img align="right" height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gerijacki&layout=compact&theme=highcontrast" alt=Gerijacki />
+<!-- 
+<img align="right" height="150" src="https://i.pinimg.com/originals/a7/48/f9/a748f9b468b02aa3861b0678fe812dcc.gif"  /> -->
 
 ###
 
