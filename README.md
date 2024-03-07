@@ -71,9 +71,9 @@
 ###
 
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=TryHackMe&logo=tryhackme&label=&color=88cc14&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="tryhackme logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo"  />
+  <a href='https://tryhackme.com/p/F1ch3u5'><img src="https://img.shields.io/static/v1?message=TryHackMe&logo=tryhackme&label=&color=88cc14&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="tryhackme logo"  /></a>
+  <a href='https://twitter.com/@byjacki12'><img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo"  /></a>
+  
 </div>
 
 ###
@@ -84,10 +84,10 @@
 
 <p align="left">
 - 🔭 Actualmente estoy trabajando en <a href='https://github.com/DuckHats/eduQuack'>Facemash-v2</a><br>
-- 🤝 También estoy trabajando en <a href='https://github.com/Gerijacki/Mine-Startupv2'>Proyectos de Ciberseguridad</a><br>
+- 🤝 También estoy trabajando en <a href='https://github.com/Gerijacki/Cyber-Startupv2'>Ciberseguridad</a><br>
 - 👨‍💻 Todos mis proyectos están disponibles en <a href='https://Gerijacki.github.io/'>Mi Portafolio</a><br>
-- 🌱 Actualmente estoy aprendiendo **Tecnologías de Python**<br>
-- 💬 Puedes preguntarme acerca de **cualquier cosa**<br>
+- 🌱 Actualmente estoy aprendiendo <b>Tecnologías de Python</b><br>
+- 💬 Puedes preguntarme acerca de <b>cualquier cosa</b><br>
 - 📫 Cómo contactarme: <a href='https://twitter.com/@byjacki12'>X</a></p>
 
 ###
