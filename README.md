@@ -82,6 +82,12 @@
 
 ###
 
-<p align="left">- 🔭 Actualmente estoy trabajando en [Facemash-v2](https://github.com/DuckHats/eduQuack)<br>- 🤝 También estoy trabajando en [Proyectos de Ciberseguridad](https://github.com/Gerijacki/Mine-Startupv2)<br>- 👨‍💻 Todos mis proyectos están disponibles en [Mi Portafolio](https://Gerijacki.github.io/)<br>- 🌱 Actualmente estoy aprendiendo **Tecnologías de Python**<br>- 💬 Puedes preguntarme acerca de **cualquier cosa**<br>- 📫 Cómo contactarme: [Twitter](https://twitter.com/@byjacki12)</p>
+<p align="left">
+- 🔭 Actualmente estoy trabajando en <a href='https://github.com/DuckHats/eduQuack'>Facemash-v2</a><br>
+- 🤝 También estoy trabajando en <a href='https://github.com/Gerijacki/Mine-Startupv2'>Proyectos de Ciberseguridad</a><br>
+- 👨‍💻 Todos mis proyectos están disponibles en <a href='https://Gerijacki.github.io/'>Mi Portafolio</a><br>
+- 🌱 Actualmente estoy aprendiendo **Tecnologías de Python**<br>
+- 💬 Puedes preguntarme acerca de **cualquier cosa**<br>
+- 📫 Cómo contactarme: <a href='https://twitter.com/@byjacki12'>X</a></p>
 
 ###
