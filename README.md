@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Gerijacki, and I'm a student, from Catalonia👽👻</h2>
+<h2 align="left">Hi 👋! My name is Gerijacki and I'm a student 👽👻</h2>
 
 ###
 
