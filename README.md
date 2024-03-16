@@ -1,96 +1,31 @@
-<h2 align="left">Hi 👋! My name is Gerijacki and I'm a student 👽👻</h2>
+<h2> Hi, I'm Gerijacki! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+<img align='right' src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHRkcnp5eXI2MHk4Y3h5cmwzNzljZndnNzZ0dm1neDl5bm05NWRzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/l378n0vg0LNXvSLHW/giphy.gif" width="230">
+<p><em>Multi platform software developer in <a href="">Barcelona</a>
+<!-- <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Developer Consultant at <a href="https://www.thoughtworks.com">ThoughtWorks</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+</em></p> -->
 
-###
+[![Twitter: byjacki12](https://img.shields.io/twitter/follow/byjacki12?style=social)](https://twitter.com/byjacki12)
+[![TryHackMe: F1ch3u5](https://img.shields.io/static/v1?message=TryHackMe&logo=tryhackme&label=&color=88cc14&logoColor=white&labelColor=&style=social)](https://tryhackme.com/p/F1ch3u5)
+[![GitHub Gerijacki](https://img.shields.io/github/followers/Gerijacki?label=follow&style=social)](https://github.com/Gerijacki)
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" height="30" alt="apache logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="30" alt="arduino logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="30" alt="blender logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" height="30" alt="chrome logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" height="30" alt="debian logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="30" alt="django logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="30" alt="express logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" height="30" alt="godot logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="30" alt="jira logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="30" alt="linkedin logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="30" alt="markdown logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/putty/putty-original.svg" height="30" alt="putty logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="30" alt="raspberrypi logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg" height="30" alt="redhat logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" height="30" alt="ssh logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" height="30" alt="ubuntu logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" height="30" alt="twitter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" height="30" alt="wordpress logo"  />
-</div>
 
-###
+### <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGR3bm5vOHlkZmlhZGJwOGYybmUxYTIxYjZzODI4YmozZDNwbW5xOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nhJWU3aiNb7zM65jwc/giphy.gif" width="25"> A little more about me...  
 
-<div align="center">
-  <a href='https://tryhackme.com/p/F1ch3u5'><img src="https://img.shields.io/static/v1?message=TryHackMe&logo=tryhackme&label=&color=88cc14&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="tryhackme logo"  /></a>
-  <a href='https://twitter.com/@byjacki12'><img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo"  /></a>
-  
-</div>
+```javascript
+const mine = {
+  pronouns: "he" || "him",
+  code: ["JavaScript", "MySQL", "PHP", "HTML", "CSS", "Python", "Java", "Bootstrap"],
+  tools: ["Node.js", "Web Frameworks", "Git", "Linux", "Docker"],
+  softSkills: {
+    teamwork: true,
+    speaker: true,
+    socialMedia: true,
+  },
+  challenge: "I'm currently undertaking the #100DaysOfCode challenge."
+};
 
-###
-<img align="right" height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gerijacki&hide_progress=true&theme=highcontrast" alt=Gerijacki />
-<!-- 
-<img align="right" height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gerijacki&layout=compact&theme=highcontrast" alt=Gerijacki /> -->
-<!-- 
-<img align="right" height="150" src="https://i.pinimg.com/originals/a7/48/f9/a748f9b468b02aa3861b0678fe812dcc.gif"  /> -->
+```
 
-###
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmxtbXQxM21icXN4eWJtMGhzZWY4MjJ1ZzdzbnowOGM2d2RuYTVnMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/BXjqytvu9bKzCUHdzz/giphy.gif" width="60"> <em><b>I like connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
 
-<p align="left">
-- 🔭 Actualmente estoy trabajando en <a href='https://github.com/DuckHats/eduQuack'>Facemash-v2</a><br>
-- 🤝 También estoy trabajando en <a href='https://github.com/Gerijacki/Cyber-Startupv2'>Ciberseguridad</a><br>
-- 👨‍💻 Todos mis proyectos están disponibles en <a href='https://Gerijacki.github.io/'>Mi Portafolio</a><br>
-- 🌱 Actualmente estoy aprendiendo <b>Tecnologías de Python</b><br>
-- 💬 Puedes preguntarme acerca de <b>cualquier cosa</b><br>
-- 📫 Cómo contactarme: <a href='https://twitter.com/@byjacki12'>X</a></p>
-
-###
+---
