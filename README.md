@@ -1,6 +1,6 @@
 <h2> Hi, I'm Gerijacki! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 <img align='right' src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHRkcnp5eXI2MHk4Y3h5cmwzNzljZndnNzZ0dm1neDl5bm05NWRzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/l378n0vg0LNXvSLHW/giphy.gif" width="230">
-<p><em>Multi platform software developer in <a href="">Barcelona</a>
+<p><em>Multi platform software developer in <a href="https://gerijacki.vercel.app/cat">Barcelona</a>
 <!-- <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Developer Consultant at <a href="https://www.thoughtworks.com">ThoughtWorks</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p> -->
 
