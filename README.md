@@ -14,8 +14,8 @@
 ```javascript
 const mine = {
   pronouns: "he" || "him",
-  code: ["JavaScript", "MySQL", "PHP", "HTML", "CSS", "Python", "Java", "Bootstrap"],
-  tools: ["Node.js", "Web Frameworks", "Git", "Linux", "Docker"],
+  code: ["MySQL", "PHP", "HTML", "CSS", "Python", "Java"],
+  tools: ["Node.js", "Laravel", "Git", "Linux", "Docker"],
   softSkills: {
     teamwork: true,
     speaker: true,
