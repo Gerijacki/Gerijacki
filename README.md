@@ -1,12 +1,17 @@
 <h2> Hi, I'm Gerijacki! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 <img align='right' src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHRkcnp5eXI2MHk4Y3h5cmwzNzljZndnNzZ0dm1neDl5bm05NWRzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/l378n0vg0LNXvSLHW/giphy.gif" width="230">
 <p><em>Backend developer in <a href="https://gerardloriz.com/cat">Barcelona</a>
-<!-- <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Developer Consultant at <a href="https://www.thoughtworks.com">ThoughtWorks</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-</em></p> -->
-
-[![Twitter: byjacki12](https://img.shields.io/twitter/follow/byjacki12?style=social)](https://twitter.com/byjacki12)
-[![TryHackMe: F1ch3u5](https://img.shields.io/static/v1?message=TryHackMe&logo=tryhackme&label=&color=88cc14&logoColor=white&labelColor=&style=social)](https://tryhackme.com/p/F1ch3u5)
-[![GitHub Gerijacki](https://img.shields.io/github/followers/Gerijacki?label=follow&style=social)](https://github.com/Gerijacki)
+<p>
+  <a href="https://twitter.com/byjacki12">
+    <img src="https://img.shields.io/twitter/follow/byjacki12?style=social"/>
+  </a>
+  <a href="https://github.com/Gerijacki">
+    <img src="https://img.shields.io/github/followers/Gerijacki?label=follow&style=social"/>
+  </a>
+  <a href="https://tryhackme.com/p/F1ch3u5">
+    <img src="https://img.shields.io/static/v1?message=TryHackMe&logo=tryhackme&color=88cc14&style=social"/>
+  </a>
+</p>
 
 
 ### <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGR3bm5vOHlkZmlhZGJwOGYybmUxYTIxYjZzODI4YmozZDNwbW5xOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nhJWU3aiNb7zM65jwc/giphy.gif" width="25"> A little more about me...  
