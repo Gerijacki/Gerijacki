@@ -2,9 +2,6 @@
 <img align='right' src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHRkcnp5eXI2MHk4Y3h5cmwzNzljZndnNzZ0dm1neDl5bm05NWRzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/l378n0vg0LNXvSLHW/giphy.gif" width="230">
 <p><em>Backend developer in <a href="https://gerardloriz.com/cat">Barcelona</a>
 <p>
-  <a href="https://twitter.com/byjacki12">
-    <img src="https://img.shields.io/twitter/follow/byjacki12?style=social"/>
-  </a>
   <a href="https://github.com/Gerijacki">
     <img src="https://img.shields.io/github/followers/Gerijacki?label=follow&style=social"/>
   </a>
@@ -19,7 +16,7 @@
 ```javascript
 const mine = {
   pronouns: "he" || "him",
-  code: ["MySQL", "PHP", "HTML", "CSS", "Python", "Java"],
+  code: ["MySQL", "PHP", "AI", "CYBERSECURITY", "Python", "Java"],
   tools: ["Node.js", "Laravel", "Git", "Linux", "Docker"],
   softSkills: {
     teamwork: true,
