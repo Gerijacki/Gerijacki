@@ -54,8 +54,6 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Gerijacki&hide_border=true&background=0D0A14&stroke=2A2438&ring=7C5CD0&fire=63C69A&currStreakLabel=7C5CD0&sideLabels=A99FC0&dates=6B6478&currStreakNum=EDE7F2&sideNums=EDE7F2&titleColor=7C5CD0" height="165" />
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Gerijacki&bg_color=0D0A14&color=A99FC0&line=7C5CD0&point=63C69A&area=true&area_color=7C5CD0&hide_border=true" width="98%" />
 
 </div>
