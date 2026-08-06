@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=42d0529f">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=42d0529f" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=e688b13a">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=e688b13a" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -41,7 +41,7 @@
 - **[BreachMap](https://github.com/Gerijacki/BreachMap)** `C` — Map the path from badge to breach — a physical security reconnaissance notebook that runs on your Flipper Zero.
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
 
-<sub>165 commits · 24 pull requests · 1 review · 9 issues · 12 repositories created, last 12 months.</sub>
+<sub>169 commits · 24 pull requests · 1 review · 9 issues · 12 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -70,20 +70,20 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=40bf77f3">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=40bf77f3" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=c12e6f17">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=c12e6f17" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=8194b4ad">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=8194b4ad" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=48c34aaf">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=48c34aaf" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
 <!-- gen:languages:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=b0b9536a">
-  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=b0b9536a" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=0813465d">
+  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=0813465d" width="100%">
 </picture>
 <!-- gen:languages:end -->
 
