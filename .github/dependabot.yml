@@ -1,0 +1,33 @@
+version: 2
+
+updates:
+  # Actions are pinned by commit SHA, which is safe but invisible to a human reader.
+  # Dependabot is what keeps those pins from silently going stale.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    commit-message:
+      prefix: "ci"
+    labels:
+      # "dependencies" is the one label Dependabot creates for itself; naming a
+      # label that doesn't exist makes it drop the PR's labels silently.
+      - dependencies
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    commit-message:
+      prefix: "deps"
+    labels:
+      # "dependencies" is the one label Dependabot creates for itself; naming a
+      # label that doesn't exist makes it drop the PR's labels silently.
+      - dependencies
+    groups:
+      # One PR for the dev toolchain instead of three; production deps stay separate
+      # so a change to what the generator actually ships is always reviewed on its own.
+      dev-tooling:
+        dependency-type: development

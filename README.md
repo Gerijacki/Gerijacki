@@ -1,28 +1,33 @@
-<h2 align="center">
-  <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="45">
-  Hey, I'm Gerijacki — <code>GET</code> /profile → <code>200 OK</code>
-</h2>
+<!--
+  README.md is generated from README.tpl.md — edit the template, never the output.
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=7C5CD0&center=true&vCenter=true&width=560&lines=Backend+Developer;DevOps+%26+Automation;AI+%26+RAG+pipelines;Security-minded+builder;build+it+%E2%80%94+then+try+to+break+it" alt="typing" />
-</div>
+  Prose outside the gen: markers is hand-written and is never touched. Each start/end
+  marker pair is overwritten on every build; run `npm run generate` after editing, or
+  let the scheduled workflow do it. Adding a marker pair without a matching section in
+  src/build.ts (or the reverse) fails the build rather than shipping a blank hole.
+-->
 
-<img align="right" width="280" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHRkcnp5eXI2MHk4Y3h5cmwzNzljZndnNzZ0dm1neDl5bm05NWRzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/l378n0vg0LNXvSLHW/giphy.gif">
+<!-- gen:header:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg?v=68f0193b">
+  <img alt="Gerijacki — whoami" src="assets/terminal-light.svg?v=68f0193b" width="100%">
+</picture>
+<!-- gen:header:end -->
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Backend-7C5CD0?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/DevOps-3FA678?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI-8B6FD1?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cybersecurity-2F9E6F?style=for-the-badge&logoColor=white" />
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=Gerijacki&color=7C5CD0&style=flat-square&label=profile+views" />
-</p>
+<!-- gen:snapshot:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=42d0529f">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=42d0529f" width="100%">
+</picture>
+<!-- gen:snapshot:end -->
 
-### <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGR3bm5vOHlkZmlhZGJwOGYybmUxYTIxYjZzODI4YmozZDNwbW5xOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nhJWU3aiNb7zM65jwc/giphy.gif" width="26"> whoami
+### whoami
 
 ```json
 {
+  "name": "Gerard Loriz",
   "role": "Backend Developer",
+  "based": "Barcelona, ES",
   "focus": ["secure APIs", "distributed systems", "automation"],
   "domains": ["Backend", "DevOps", "AI", "Cybersecurity"],
   "principles": ["secure by design", "ship · measure · harden"],
@@ -30,39 +35,84 @@
 }
 ```
 
-### <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="26"> stack
+### currently building
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-1793D1?style=flat-square&logo=linux&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+<!-- gen:focus:start -->
+- **[BreachMap](https://github.com/Gerijacki/BreachMap)** `C` — Map the path from badge to breach — a physical security reconnaissance notebook that runs on your Flipper Zero.
+- **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
 
-### <img src="https://media.giphy.com/media/W5eQyR0eyyDh6mgnO2/giphy.gif" width="26"> what I do
+<sub>165 commits · 24 pull requests · 1 review · 9 issues · 12 repositories created, last 12 months.</sub>
+<!-- gen:focus:end -->
+
+### selected work
+
+<!-- gen:projects:start -->
+| Project | What it is | Language | Topics |
+| :-- | :-- | :-- | :-- |
+| **[soc](https://github.com/Gerijacki/soc)** | A professional-grade, fully containerized Security Operations Center pipeline built for learning and portfolio demonstration | Python | — |
+| **[BreachMap](https://github.com/Gerijacki/BreachMap)** ⭐ 1 | Map the path from badge to breach — a physical security reconnaissance notebook that runs on your Flipper Zero. | C | `cyber` `cybersecurity` `flipper-app` `flipper-zero` |
+| **[credweaver](https://github.com/Gerijacki/credweaver)** | CredWeaver is a fast, profile-driven credential wordlist generator built for authorized penetration testing, CTF competitions, and security research. | Python | `cupp` `hydra` `john-the-ripper` `password-generator` |
+| **[Orgit](https://github.com/Gerijacki/Orgit)** | Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup. | TypeScript | `agentic` `ai` `architecture` `automation` |
+| **[rans](https://github.com/Gerijacki/rans)** | rans is a command-line tool for encrypting and decrypting files and directories using AES-256-GCM | Go | `cli-app` `cybersecurity` `encryption` `rans` |
+| **[random_decision_maker](https://github.com/Gerijacki/random_decision_maker)** ⭐ 2 | Flipper zero app | C | — |
+<!-- gen:projects:end -->
+
+### stack
+
+<!-- gen:stack:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg?v=363c25e9">
+  <img alt="Tools and technologies" src="assets/stack-light.svg?v=363c25e9" width="100%">
+</picture>
+<!-- gen:stack:end -->
+
+### the numbers
+
+<!-- gen:activity:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=40bf77f3">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=40bf77f3" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=8194b4ad">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=8194b4ad" width="100%">
+</picture>
+<!-- gen:activity:end -->
+
+<!-- gen:languages:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=b0b9536a">
+  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=b0b9536a" width="100%">
+</picture>
+<!-- gen:languages:end -->
+
+### what I do
 
 - **`⟢ Backend`** — REST APIs, clean architecture and databases built to scale.
 - **`⟢ DevOps`** — containers, CI/CD pipelines and automation on Linux.
 - **`⟢ AI`** — LLM integration and retrieval-augmented (RAG) tooling.
 - **`⟢ Cybersecurity`** — secure-by-design services, hardening and an offensive mindset.
 
----
+### let's connect
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gerijacki&bg_color=0D0A14&color=A99FC0&line=7C5CD0&point=63C69A&area=true&area_color=7C5CD0&hide_border=true" width="98%" />
-
-</div>
-
-### <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmxtbXQxM21icXN4eWJtMGhzZWY4MjJ1ZzdzbnowOGM2d2RuYTVnMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/BXjqytvu9bKzCUHdzz/giphy.gif" width="40"> let's connect
-
-<em><b>I like meeting people who build and break things.</b> Say hi — I'll be happy to talk backend, security &amp; AI!</em>
+<em><b>I like meeting people who build and break things.</b> Say hi — I'll be happy to talk backend, security &amp; AI.</em>
 
 <p>
-  <a href="https://github.com/Gerijacki"><img src="https://img.shields.io/github/followers/Gerijacki?label=Follow&style=social" /></a>
-  <a href="https://tryhackme.com/p/F1ch3u5"><img src="https://img.shields.io/static/v1?message=TryHackMe&logo=tryhackme&color=88cc14&style=social&label=" /></a>
+  <a href="https://www.gerardloriz.com">gerardloriz.com</a> ·
+  <a href="https://www.linkedin.com/in/gerard-loriz-pou/">LinkedIn</a> ·
+  <a href="https://tryhackme.com/p/F1ch3u5">TryHackMe</a> ·
+  <a href="https://github.com/Gerijacki?tab=followers">Follow on GitHub</a>
 </p>
+
+---
+
+<!-- gen:buildinfo:start -->
+<div align="center">
+
+[![build](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml) [![ci](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml) [![security](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml) [![health](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml)
+
+<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-08-06. More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
+
+</div>
+<!-- gen:buildinfo:end -->

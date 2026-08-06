@@ -1,0 +1,12 @@
+# Normalise everything to LF in the repository. The README was CRLF before the
+# generator existed; without this every regenerated line shows up as a diff.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.webp binary
+*.woff2 binary
+
+# Generated artefacts: keep them out of language stats and collapse them in diffs.
+assets/*.svg linguist-generated=true
+README.md linguist-generated=true

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Local run artefacts
+.cache/
+.env
+.env.local
+npm-debug.log*

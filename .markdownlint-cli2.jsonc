@@ -1,0 +1,12 @@
+{
+  // The README is a generated document that leans on inline HTML for the <picture>
+  // elements and the centred footer, so the rules that assume hand-written prose
+  // with a fixed line width don't apply.
+  "config": {
+    "line-length": false,        // MD013 — generated tables and <picture> tags are long
+    "no-inline-html": false,     // MD033 — <picture> is how GitHub does theme-aware images
+    "first-line-heading": false, // MD041 — the page opens with a card, not an <h1>
+    "no-duplicate-heading": false
+  },
+  "globs": ["README.md", "README.tpl.md"]
+}
