@@ -78,6 +78,7 @@ card. The terminal card's typing effect is built this way.
 | Workflow | Trigger | What it does |
 | :-- | :-- | :-- |
 | `readme.yml` | every 6h, manual, push to `main` | Regenerates and commits — only if something changed |
+| `release.yml` | daily, `v*` tag push, manual | Cuts a CalVer tag and publishes the release — only if the profile changed |
 | `ci.yml` | pull requests, push to `main` | Typecheck, tests, markdownlint, generator dry-run |
 | `security.yml` | push, PR, weekly | zizmor (workflow audit), CodeQL, OpenSSF Scorecard |
 | `health.yml` | weekly | Verifies referenced assets exist and links resolve; files an issue if not |
@@ -90,6 +91,29 @@ CI deliberately does **not** fail when the committed README differs from a fresh
 inputs are live — the contribution count changes daily — so such a gate would fail on almost
 every pull request for reasons unrelated to the change under review. What CI asserts is that
 the build *runs*: markers and sections agree, every card renders, the query still parses.
+
+## Releasing
+
+Deploying the profile means putting a tag on it. `release.yml` cuts `vYYYY.MM.DD` daily, but
+only when `README.md` or `assets/` actually differ from the previous tag — a generator change
+that leaves the rendered page byte-identical is not worth a release. Pushing a `v*` tag by
+hand publishes it immediately, through the same code path.
+
+```bash
+GITHUB_TOKEN="$(gh auth token)" node dist/index.js notes --days 3   # preview the notes
+git tag -a v2026.08.10 -m "manual release" && git push origin v2026.08.10
+```
+
+Note that `tag.gpgsign` is enabled in this repository, so `git tag <name>` without `-m` fails
+rather than opening an editor. Annotate your tags.
+
+Each release ships `README.md`, the twelve cards, and a zip of both. The notes describe the
+last three days of contribution activity, and say outright that GitHub only counts commits on
+a repository's default branch — otherwise a day spent on a feature branch reads as a day of
+doing nothing.
+
+Tags created by the workflow use `GITHUB_TOKEN`, which by design does not trigger further
+workflows, so the `v*` push trigger cannot loop back into itself.
 
 ## Why the prose is generated, not written
 
