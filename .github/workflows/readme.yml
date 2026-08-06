@@ -1,0 +1,73 @@
+name: build
+
+# The profile README only renders from the default branch, so this has to run on main.
+on:
+  schedule:
+    # Offset from the hour: scheduled runs cluster on :00 and get queued.
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "README.tpl.md"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/readme.yml"
+
+# Default to nothing; each job opts in to exactly what it needs.
+permissions: {}
+
+concurrency:
+  group: readme
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    name: Generate and commit
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write # commit the regenerated README and cards back to the branch
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # The push below authenticates explicitly, so the checkout credentials
+          # never need to sit in .git/config for the rest of the job.
+          persist-credentials: false
+
+      - name: Set up Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate README and cards
+        run: npm run generate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if anything changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git add -A README.md assets
+
+          # A cron every 6h would otherwise land four empty commits a day and
+          # inflate the very contribution graph this repo renders.
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to commit."
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(profile): regenerate README and cards [skip ci]"
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            "HEAD:${GITHUB_REF_NAME}"

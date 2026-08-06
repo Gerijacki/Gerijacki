@@ -1,0 +1,28 @@
+{
+  "name": "gerijacki-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-building GitHub profile README: fetches the GitHub API, renders its own SVGs, writes README.md.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "generate": "npm run build && node dist/index.js build",
+    "dry-run": "npm run build && node dist/index.js build --dry-run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@octokit/graphql": "^8.1.1",
+    "@octokit/request-error": "^6.1.5",
+    "@octokit/rest": "^21.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  }
+}
