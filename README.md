@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=f67d7feb">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=f67d7feb" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=b376db35">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=b376db35" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -41,7 +41,7 @@
 - **[BreachMap](https://github.com/Gerijacki/BreachMap)** `C` — Map the path from badge to breach — a physical security reconnaissance notebook that runs on your Flipper Zero.
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
 
-<sub>170 commits · 24 pull requests · 1 review · 9 issues · 12 repositories created, last 12 months.</sub>
+<sub>172 commits · 24 pull requests · 1 review · 9 issues · 12 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -70,13 +70,13 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=2abe8872">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=2abe8872" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=4aac4bb8">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=4aac4bb8" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=d6d7e0aa">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=d6d7e0aa" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=1f332736">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=1f332736" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
