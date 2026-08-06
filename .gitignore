@@ -7,3 +7,8 @@ dist/
 .env
 .env.local
 npm-debug.log*
+
+# Produced by the release flow. In CI these live and die with the runner; running the
+# same steps locally would otherwise leave them staged into the next commit.
+release-notes.md
+profile-cards-*.zip

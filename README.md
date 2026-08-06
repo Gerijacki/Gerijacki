@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=e688b13a">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=e688b13a" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=f67d7feb">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=f67d7feb" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -41,7 +41,7 @@
 - **[BreachMap](https://github.com/Gerijacki/BreachMap)** `C` — Map the path from badge to breach — a physical security reconnaissance notebook that runs on your Flipper Zero.
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
 
-<sub>169 commits · 24 pull requests · 1 review · 9 issues · 12 repositories created, last 12 months.</sub>
+<sub>170 commits · 24 pull requests · 1 review · 9 issues · 12 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -70,13 +70,13 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=c12e6f17">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=c12e6f17" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=2abe8872">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=2abe8872" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=48c34aaf">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=48c34aaf" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=d6d7e0aa">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=d6d7e0aa" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
@@ -112,7 +112,7 @@
 
 [![build](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml) [![ci](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml) [![security](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml) [![health](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml)
 
-<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-08-06. More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
+<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-08-06. Latest release <a href="https://github.com/Gerijacki/Gerijacki/releases/tag/v2026.08.06">v2026.08.06</a> (2026-08-06). More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
 
 </div>
 <!-- gen:buildinfo:end -->
