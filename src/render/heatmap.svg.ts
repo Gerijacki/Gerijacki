@@ -48,6 +48,25 @@ export function levelFor(count: number, thresholds: [number, number, number]): n
   return 4;
 }
 
+/**
+ * Summary line for the card.
+ *
+ * The busiest day is what makes a sparse year legible: two streak numbers alone don't say
+ * whether the quiet stretches sit next to real bursts of work or nothing at all.
+ */
+export function heatmapMeta(stats: ContributionStats): string {
+  const parts = [`${stats.currentStreak}d streak`, `${stats.longestStreak}d best`];
+  const busiest = stats.busiestDay;
+
+  if (busiest && busiest.contributionCount > 0) {
+    const day = Number(busiest.date.slice(8, 10));
+    const month = MONTHS[Number(busiest.date.slice(5, 7)) - 1]!;
+    parts.push(`busiest ${busiest.contributionCount} on ${day} ${month}`);
+  }
+
+  return parts.join(" · ");
+}
+
 /** Day-by-day contribution calendar, generated locally instead of scraped from a widget. */
 export function renderHeatmap(ctx: CardContext, stats: ContributionStats): string {
   const { palette } = ctx;
@@ -110,7 +129,7 @@ export function renderHeatmap(ctx: CardContext, stats: ContributionStats): strin
       palette,
       height,
       title: "COMMIT CALENDAR",
-      meta: `${stats.currentStreak}d current streak · ${stats.longestStreak}d best`,
+      meta: heatmapMeta(stats),
       label: `Contribution calendar for the last year: ${stats.total} contributions, current streak ${stats.currentStreak} days`,
     },
     parts.join(""),

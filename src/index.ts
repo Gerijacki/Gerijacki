@@ -1,20 +1,78 @@
-import { appendFile, mkdir, readFile, writeFile } from "node:fs/promises";
+import { appendFile, mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import { build, type BuildResult } from "./build.js";
-import { TEMPLATE_FILE } from "./config.js";
+import { ASSETS_DIR, OUTPUT_FILE, TEMPLATE_FILE } from "./config.js";
+import { fetchActivity } from "./github/client.js";
+import { renderNotes } from "./release/notes.js";
 
 const ROOT = process.cwd();
+
+const USAGE = [
+  "usage:",
+  "  node dist/index.js build [--dry-run]",
+  "  node dist/index.js notes [--days N] [--tag vX] [--out FILE]",
+].join("\n");
 
 async function main(): Promise<void> {
   const [command, ...flags] = process.argv.slice(2);
 
-  if (command !== "build") {
-    console.error("usage: node dist/index.js build [--dry-run]");
-    process.exitCode = 2;
-    return;
+  switch (command) {
+    case "build":
+      await runBuild(flags);
+      return;
+    case "notes":
+      await runNotes(flags);
+      return;
+    default:
+      console.error(USAGE);
+      process.exitCode = 2;
+  }
+}
+
+/** Reads `--name value`, falling back to `fallback` when the flag is absent. */
+function flagValue(flags: string[], name: string, fallback: string): string {
+  const index = flags.indexOf(`--${name}`);
+  if (index === -1) return fallback;
+
+  const value = flags[index + 1];
+  if (value === undefined || value.startsWith("--")) {
+    throw new Error(`--${name} needs a value`);
+  }
+  return value;
+}
+
+/** Release notes for a window ending now. Writes to stdout, and to a file when asked. */
+async function runNotes(flags: string[]): Promise<void> {
+  const days = Number(flagValue(flags, "days", "3"));
+  if (!Number.isFinite(days) || days <= 0) {
+    throw new Error(`--days must be a positive number, got "${days}"`);
   }
 
+  const to = new Date();
+  const from = new Date(to.getTime() - days * 86_400_000);
+  const tag = flagValue(flags, "tag", `v${to.toISOString().slice(0, 10).replace(/-/g, ".")}`);
+
+  const activity = await fetchActivity(from, to);
+  const assets = [OUTPUT_FILE, ...(await listAssets())];
+  const notes = renderNotes({ activity, from, to, tag, assets });
+
+  const out = flagValue(flags, "out", "");
+  if (out) await writeFile(path.join(ROOT, out), `${notes}\n`, "utf8");
+
+  console.log(notes);
+}
+
+async function listAssets(): Promise<string[]> {
+  try {
+    const entries = await readdir(path.join(ROOT, ASSETS_DIR));
+    return entries.filter((name) => name.endsWith(".svg")).sort().map((name) => `${ASSETS_DIR}/${name}`);
+  } catch {
+    return [];
+  }
+}
+
+async function runBuild(flags: string[]): Promise<void> {
   const dryRun = flags.includes("--dry-run");
   const template = await readFile(path.join(ROOT, TEMPLATE_FILE), "utf8");
   const result = await build(template, new Date());

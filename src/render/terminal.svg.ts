@@ -183,6 +183,3 @@ export function renderTerminal(ctx: CardContext): string {
     parts.join(""),
   );
 }
-
-/** Exported for the snapshot test's sanity check on line count. */
-export const terminalLineCount = (): number => layoutLines().length;

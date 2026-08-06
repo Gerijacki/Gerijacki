@@ -1,0 +1,9 @@
+# Everything here is mine; this file exists so review assignment is explicit rather than
+# implied, and so automated changes (Dependabot, the release workflow) land on a named
+# reviewer instead of nobody.
+*                       @Gerijacki
+
+# The workflows and the generator are the parts where a bad change is not just cosmetic:
+# one holds the tokens and permissions, the other writes the page.
+/.github/workflows/     @Gerijacki
+/src/                   @Gerijacki

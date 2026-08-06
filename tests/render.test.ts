@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 import { THEMES, type ThemeName } from "../src/config.js";
 import { currentStreak, longestStreak, type ContributionStats } from "../src/data/contributions.js";
 import { renderActivity } from "../src/render/activity.svg.js";
-import { levelFor, levelThresholds, renderHeatmap } from "../src/render/heatmap.svg.js";
+import { heatmapMeta, levelFor, levelThresholds, renderHeatmap } from "../src/render/heatmap.svg.js";
 import { renderLanguages } from "../src/render/languages.svg.js";
 import { chipWidthFor, renderStack, stackHeight } from "../src/render/stack.svg.js";
 import { renderStats } from "../src/render/stats.svg.js";
@@ -99,6 +99,24 @@ describe("card geometry", () => {
     expect(renderStack({ theme: "dark", palette: THEMES.dark })).toContain(
       `height="${stackHeight()}"`,
     );
+  });
+});
+
+describe("heatmapMeta", () => {
+  it("names the busiest day", () => {
+    expect(heatmapMeta(STATS)).toMatch(/\d+d streak · \d+d best · busiest \d+ on \d+ [A-Z][a-z]{2}/);
+  });
+
+  it("omits the busiest day when there is nothing to name", () => {
+    expect(heatmapMeta({ ...STATS, busiestDay: null })).toBe(
+      `${STATS.currentStreak}d streak · ${STATS.longestStreak}d best`,
+    );
+  });
+
+  // An all-zero year has a "busiest" day arithmetically, but "busiest 0" is noise.
+  it("omits a busiest day with no contributions", () => {
+    const empty = { ...STATS, busiestDay: { date: "2026-01-01", contributionCount: 0, weekday: 4 } };
+    expect(heatmapMeta(empty)).not.toContain("busiest");
   });
 });
 

@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=0ef29aa0">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=0ef29aa0" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=42d0529f">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=42d0529f" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -39,9 +39,9 @@
 
 <!-- gen:focus:start -->
 - **[BreachMap](https://github.com/Gerijacki/BreachMap)** `C` — Map the path from badge to breach — a physical security reconnaissance notebook that runs on your Flipper Zero.
-- **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine powered by Claude Code.
+- **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
 
-<sub>165 commits · 23 pull requests · 1 review · 12 repositories created, last 12 months.</sub>
+<sub>165 commits · 24 pull requests · 1 review · 9 issues · 12 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -52,7 +52,7 @@
 | **[soc](https://github.com/Gerijacki/soc)** | A professional-grade, fully containerized Security Operations Center pipeline built for learning and portfolio demonstration | Python | — |
 | **[BreachMap](https://github.com/Gerijacki/BreachMap)** ⭐ 1 | Map the path from badge to breach — a physical security reconnaissance notebook that runs on your Flipper Zero. | C | `cyber` `cybersecurity` `flipper-app` `flipper-zero` |
 | **[credweaver](https://github.com/Gerijacki/credweaver)** | CredWeaver is a fast, profile-driven credential wordlist generator built for authorized penetration testing, CTF competitions, and security research. | Python | `cupp` `hydra` `john-the-ripper` `password-generator` |
-| **[Orgit](https://github.com/Gerijacki/Orgit)** | Autonomous repository evolution engine powered by Claude Code. | TypeScript | `agentic` `ai` `anthropic` `architecture` |
+| **[Orgit](https://github.com/Gerijacki/Orgit)** | Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup. | TypeScript | `agentic` `ai` `architecture` `automation` |
 | **[rans](https://github.com/Gerijacki/rans)** | rans is a command-line tool for encrypting and decrypting files and directories using AES-256-GCM | Go | `cli-app` `cybersecurity` `encryption` `rans` |
 | **[random_decision_maker](https://github.com/Gerijacki/random_decision_maker)** ⭐ 2 | Flipper zero app | C | — |
 <!-- gen:projects:end -->
@@ -70,13 +70,13 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=d6f6ffec">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=d6f6ffec" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=40bf77f3">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=40bf77f3" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=6f4b6673">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=6f4b6673" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=8194b4ad">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=8194b4ad" width="100%">
 </picture>
 <!-- gen:activity:end -->
 

@@ -28,12 +28,22 @@ export function renderDigest(projects: Project[], stats: ContributionStats, now:
     lines.push("- Between pushes — the code is in the repositories below.");
   }
 
+  const totals = [
+    count(stats.commits, "commit"),
+    count(stats.pullRequests, "pull request"),
+    count(stats.reviews, "review"),
+    count(stats.issues, "issue"),
+    `${count(stats.reposCreated, "repository", "repositories")} created`,
+  ];
+
+  // Private work is only worth a mention when there is some; a "0 private" reads as an
+  // apology rather than a fact.
+  if (stats.privateTotal > 0) {
+    totals.push(`${stats.privateTotal} private`);
+  }
+
   lines.push("");
-  lines.push(
-    `<sub>${count(stats.commits, "commit")} · ${count(stats.pullRequests, "pull request")} · ` +
-      `${count(stats.reviews, "review")} · ` +
-      `${count(stats.reposCreated, "repository", "repositories")} created, last 12 months.</sub>`,
-  );
+  lines.push(`<sub>${totals.join(" · ")}, last 12 months.</sub>`);
 
   return lines.join("\n");
 }

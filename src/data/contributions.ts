@@ -18,7 +18,7 @@ export interface ContributionStats {
   dailyAverage: number;
 }
 
-export function flattenCalendar(result: ProfileQueryResult): ContributionDay[] {
+function flattenCalendar(result: ProfileQueryResult): ContributionDay[] {
   return result.user.contributionsCollection.contributionCalendar.weeks
     .flatMap((week) => week.contributionDays)
     .sort((a, b) => a.date.localeCompare(b.date));

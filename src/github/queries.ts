@@ -9,6 +9,63 @@
  * `contributionsCollection` accepts at most a one-year window, which is why `from`/`to`
  * are parameters rather than baked in.
  */
+export const ACTIVITY_QUERY = /* GraphQL */ `
+  query Activity($login: String!, $from: DateTime!, $to: DateTime!) {
+    rateLimit {
+      cost
+      remaining
+      limit
+      resetAt
+    }
+    user(login: $login) {
+      contributionsCollection(from: $from, to: $to) {
+        totalCommitContributions
+        totalPullRequestContributions
+        totalIssueContributions
+        totalPullRequestReviewContributions
+        commitContributionsByRepository(maxRepositories: 25) {
+          repository {
+            nameWithOwner
+            url
+            description
+            primaryLanguage {
+              name
+            }
+          }
+          contributions {
+            totalCount
+          }
+        }
+        pullRequestContributions(first: 20) {
+          nodes {
+            pullRequest {
+              title
+              url
+              number
+              merged
+              repository {
+                nameWithOwner
+              }
+            }
+          }
+        }
+        issueContributions(first: 20) {
+          nodes {
+            issue {
+              title
+              url
+              number
+              repository {
+                nameWithOwner
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
+
 export const PROFILE_QUERY = /* GraphQL */ `
   query Profile($login: String!, $from: DateTime!, $to: DateTime!) {
     rateLimit {
@@ -66,9 +123,7 @@ export const PROFILE_QUERY = /* GraphQL */ `
           url
           isArchived
           stargazerCount
-          forkCount
           pushedAt
-          createdAt
           primaryLanguage {
             name
             color

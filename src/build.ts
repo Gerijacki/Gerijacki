@@ -95,7 +95,9 @@ export async function build(template: string, now: Date): Promise<BuildResult> {
     stack: stack!.markdown,
     languages: languageCard!.markdown,
     projects: renderProjects(projects),
-    buildinfo: renderBuildInfo(now),
+    // The profile repo is in the query result even though it is excluded from the project
+    // table, so the current release costs no extra request.
+    buildinfo: renderBuildInfo(now, repos.find((repo) => repo.name === REPO)?.latestRelease ?? null),
   });
 
   files.set("README.md", `${readme.trimEnd()}\n`);
@@ -142,22 +144,32 @@ function renderProjects(projects: Project[]): string {
  * showing it: live workflow status, the timestamp of the run that produced this file, and
  * a link straight to the code that generated everything above.
  */
-function renderBuildInfo(now: Date): string {
+function renderBuildInfo(
+  now: Date,
+  release: { tagName: string; publishedAt: string | null; url: string } | null,
+): string {
   const badges = WORKFLOWS.map(
     ([file, label]) =>
       `[![${label}](https://github.com/${LOGIN}/${REPO}/actions/workflows/${file}/badge.svg)]` +
       `(https://github.com/${LOGIN}/${REPO}/actions/workflows/${file})`,
   ).join(" ");
 
+  // Before the first release there is nothing to point at; a "latest release: none" line
+  // would be worse than no line.
+  const releaseLine = release
+    ? `Latest release <a href="${release.url}">${release.tagName}</a>` +
+      `${release.publishedAt ? ` (${isoDay(new Date(release.publishedAt))})` : ""}. `
+    : "";
+
   return [
-    "<div align=\"center\">",
+    '<div align="center">',
     "",
     badges,
     "",
     `<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by ` +
       `<a href="https://github.com/${LOGIN}/${REPO}/tree/main/src">this repository's own generator</a> ` +
       `and committed by <a href="https://github.com/${LOGIN}/${REPO}/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — ` +
-      `no third-party widget services. Last generated ${isoDay(now)}. ` +
+      `no third-party widget services. Last generated ${isoDay(now)}. ${releaseLine}` +
       `More at <a href="${SITE}">gerardloriz.com</a>.</sub>`,
     "",
     "</div>",

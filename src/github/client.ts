@@ -3,8 +3,8 @@ import { Octokit } from "@octokit/rest";
 import { RequestError } from "@octokit/request-error";
 
 import { LOGIN, REPO } from "../config.js";
-import { PROFILE_QUERY } from "./queries.js";
-import type { ProfileQueryResult } from "./types.js";
+import { ACTIVITY_QUERY, PROFILE_QUERY } from "./queries.js";
+import type { ActivityQueryResult, ProfileQueryResult } from "./types.js";
 
 const USER_AGENT = "gerijacki-profile-generator";
 
@@ -81,6 +81,31 @@ export async function fetchProfile(now: Date): Promise<ProfileQueryResult> {
       login: LOGIN,
       from: from.toISOString(),
       to: now.toISOString(),
+    }),
+  );
+
+  usage.graphqlCost += result.rateLimit.cost;
+  usage.graphqlRemaining = result.rateLimit.remaining;
+
+  return result;
+}
+
+/**
+ * Contribution activity in an arbitrary window, for the release notes.
+ *
+ * Separate from `fetchProfile` because the window is days rather than a year and the shape
+ * of the answer is different: what got worked on, not what the totals are.
+ */
+export async function fetchActivity(from: Date, to: Date): Promise<ActivityQueryResult> {
+  const client = graphql.defaults({
+    headers: { authorization: `token ${token()}`, "user-agent": USER_AGENT },
+  });
+
+  const result = await withRetry("activity query", () =>
+    client<ActivityQueryResult>(ACTIVITY_QUERY, {
+      login: LOGIN,
+      from: from.toISOString(),
+      to: to.toISOString(),
     }),
   );
 

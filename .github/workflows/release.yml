@@ -1,0 +1,143 @@
+name: release
+
+# Two ways in, one code path out:
+#   - the daily cron cuts a CalVer tag when the generated profile actually changed;
+#   - pushing a `v*` tag by hand publishes that tag immediately.
+# Deploying the profile is therefore always "put a tag on it", whoever does the tagging.
+on:
+  schedule:
+    # After the 06:17 README regeneration, so the release ships that run's output.
+    - cron: "40 6 * * *"
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      days:
+        description: Size of the activity window in the release notes
+        required: false
+        default: "3"
+
+permissions: {}
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Tag and publish
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write # create the tag and publish the release
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # Change detection diffs against the previous tag, which needs real history.
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Decide whether to release
+        id: decide
+        env:
+          EVENT: ${{ github.event_name }}
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+
+          if [ "$EVENT" = "push" ]; then
+            # A hand-pushed tag is an explicit instruction; never second-guess it.
+            echo "tag=$REF_NAME" >> "$GITHUB_OUTPUT"
+            echo "release=true" >> "$GITHUB_OUTPUT"
+            echo "Publishing pushed tag $REF_NAME."
+            exit 0
+          fi
+
+          tag="v$(date -u +%Y.%m.%d)"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+
+          previous="$(git tag --list 'v*' --sort=-version:refname | head -n1)"
+          if [ -z "$previous" ]; then
+            echo "release=true" >> "$GITHUB_OUTPUT"
+            echo "No previous tag — cutting the first release."
+            exit 0
+          fi
+
+          # Only the published artefact counts. A change to the generator that leaves the
+          # rendered profile byte-identical is not something to cut a release for.
+          if git diff --quiet "$previous" HEAD -- README.md assets/; then
+            echo "release=false" >> "$GITHUB_OUTPUT"
+            echo "Profile unchanged since $previous — no release today."
+          else
+            echo "release=true" >> "$GITHUB_OUTPUT"
+            echo "Profile changed since $previous."
+          fi
+
+      # The npm cache is deliberately absent: this job publishes release artefacts, and the
+      # Actions cache is writable by every workflow on the repo, so a poisoned entry could
+      # end up inside a published bundle. One uncached `npm ci` a day is a fair price.
+      #
+      # zizmor still flags setup-node itself under cache-poisoning (low confidence). Dropping
+      # the action would mean building the release on whatever Node the runner image happens
+      # to ship that week; a pinned toolchain in the workflow that produces the artefact is
+      # worth more than silencing a finding by removing the pin.
+      - name: Set up Node
+        if: steps.decide.outputs.release == 'true'
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0 # zizmor: ignore[cache-poisoning]
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        if: steps.decide.outputs.release == 'true'
+        run: npm ci
+
+      - name: Build the generator
+        if: steps.decide.outputs.release == 'true'
+        run: npm run build
+
+      - name: Write release notes
+        if: steps.decide.outputs.release == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.decide.outputs.tag }}
+          DAYS: ${{ github.event.inputs.days || '3' }}
+        run: |
+          set -euo pipefail
+          node dist/index.js notes --days "$DAYS" --tag "$TAG" --out release-notes.md > /dev/null
+          {
+            echo "## Release $TAG"
+            echo
+            cat release-notes.md
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Bundle the cards
+        if: steps.decide.outputs.release == 'true'
+        env:
+          TAG: ${{ steps.decide.outputs.tag }}
+        run: zip -q -r "profile-cards-${TAG}.zip" README.md assets/
+
+      - name: Publish
+        if: steps.decide.outputs.release == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ steps.decide.outputs.tag }}
+        run: |
+          set -euo pipefail
+          assets=("profile-cards-${TAG}.zip" README.md assets/*.svg)
+
+          # Re-running the workflow for an existing tag updates that release rather than
+          # failing, so a transient error is fixed by pressing the button again.
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            echo "Release $TAG exists — updating it."
+            gh release edit "$TAG" --notes-file release-notes.md --title "$TAG"
+            gh release upload "$TAG" "${assets[@]}" --clobber
+          else
+            gh release create "$TAG" \
+              --title "$TAG" \
+              --notes-file release-notes.md \
+              "${assets[@]}"
+          fi
+          echo "Published: $(gh release view "$TAG" --json url --jq .url)"
