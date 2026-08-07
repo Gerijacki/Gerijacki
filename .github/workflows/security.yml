@@ -6,6 +6,8 @@ on:
   pull_request:
   schedule:
     - cron: "23 4 * * 1"
+  # Same reason as ci.yml: the weekly scan is a long wait if you need an answer now.
+  workflow_dispatch:
 
 permissions: {}
 

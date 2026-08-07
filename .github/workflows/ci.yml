@@ -4,6 +4,9 @@ on:
   pull_request:
   push:
     branches: [main]
+  # Regenerations commit with [skip ci], and a cancelled run can only be re-run against the
+  # commit it started on. Without this there is no way to check current main on demand.
+  workflow_dispatch:
 
 permissions: {}
 
