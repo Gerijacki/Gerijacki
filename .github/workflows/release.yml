@@ -128,10 +128,24 @@ jobs:
           set -euo pipefail
           assets=("profile-cards-${TAG}.zip" README.md assets/*.svg)
 
-          # Re-running the workflow for an existing tag updates that release rather than
-          # failing, so a transient error is fixed by pressing the button again.
           if gh release view "$TAG" > /dev/null 2>&1; then
-            echo "Release $TAG exists — updating it."
+            tagged="$(git rev-list -n1 "$TAG")"
+
+            # Re-running for the same commit updates the release, so a half-finished publish
+            # is fixed by pressing the button again.
+            #
+            # A *different* commit is the interesting case: the profile is regenerated four
+            # times a day, so a second release run can land with newer cards than the tag
+            # points at. Uploading them would leave the release claiming to be a snapshot of
+            # a commit whose content it does not ship. Skipping is the honest answer —
+            # tomorrow's tag covers the newer state, and nothing published gets rewritten.
+            if [ "$tagged" != "$GITHUB_SHA" ]; then
+              echo "Release $TAG already exists at ${tagged:0:7} and this run is on ${GITHUB_SHA:0:7}."
+              echo "Leaving it alone; the next daily tag will cover the newer profile."
+              exit 0
+            fi
+
+            echo "Release $TAG exists at this same commit — refreshing it."
             gh release edit "$TAG" --notes-file release-notes.md --title "$TAG"
             gh release upload "$TAG" "${assets[@]}" --clobber
           else
