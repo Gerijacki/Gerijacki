@@ -45,6 +45,10 @@ jobs:
           fi
           echo "All referenced assets are present."
 
+      # 403/429/999 are accepted deliberately. LinkedIn answers automated requests with 999
+      # and TryHackMe rate-limits them with 429; both pages are perfectly alive in a browser.
+      # A checker that files an issue every week for links that work is a checker people stop
+      # reading — and a genuinely dead link still fails, because it 404s or fails to resolve.
       - name: Check external links
         id: lychee
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
@@ -54,6 +58,7 @@ jobs:
             --max-retries 3
             --exclude-path assets
             --exclude '^assets/'
+            --accept 200..=299,403,429,999
             README.md README.tpl.md
           output: lychee-report.md
           fail: false
