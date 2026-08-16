@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=cd30fd5b">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=cd30fd5b" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=0b156e24">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=0b156e24" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
