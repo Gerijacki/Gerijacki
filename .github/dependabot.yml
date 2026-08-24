@@ -31,3 +31,13 @@ updates:
       # so a change to what the generator actually ships is always reviewed on its own.
       dev-tooling:
         dependency-type: development
+      # These three share a transitive dependency on @octokit/request-error. Bumping
+      # one alone leaves a duplicate copy of that class in node_modules (one at the
+      # new version, one nested at the old version pulled in by an un-bumped sibling),
+      # which breaks the `instanceof RequestError` check src/github/client.ts uses to
+      # tell a permissions 403 apart from a transient one — every error looks
+      # "retryable" and the dry-run build crashes instead of degrading gracefully.
+      # Grouping them keeps the resolved version consistent across the tree.
+      octokit:
+        patterns:
+          - "@octokit/*"
