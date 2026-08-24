@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=0b156e24">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=0b156e24" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=57eb9fb4">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=57eb9fb4" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -40,7 +40,7 @@
 <!-- gen:focus:start -->
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
 
-<sub>175 commits · 24 pull requests · 1 review · 9 issues · 12 repositories created, last 12 months.</sub>
+<sub>176 commits · 25 pull requests · 1 review · 9 issues · 12 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -69,13 +69,13 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=a0660b9f">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=a0660b9f" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=f6e33665">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=f6e33665" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=085b8f66">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=085b8f66" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=cddb738c">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=cddb738c" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
