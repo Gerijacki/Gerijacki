@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=d24cb836">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=d24cb836" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=12a2da45">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=12a2da45" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -39,8 +39,9 @@
 
 <!-- gen:focus:start -->
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
+- **[jacob](https://github.com/Gerijacki/jacob)** `Python` — A voice assistant for Arch + Omarchy whose brain is Claude Code.
 
-<sub>177 commits · 26 pull requests · 1 review · 9 issues · 12 repositories created, last 12 months.</sub>
+<sub>187 commits · 28 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -53,7 +54,7 @@
 | **[credweaver](https://github.com/Gerijacki/credweaver)** | CredWeaver is a fast, profile-driven credential wordlist generator built for authorized penetration testing, CTF competitions, and security research. | Python | `cupp` `hydra` `john-the-ripper` `password-generator` |
 | **[Orgit](https://github.com/Gerijacki/Orgit)** ⭐ 2 | Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup. | TypeScript | `agentic` `ai` `architecture` `automation` |
 | **[rans](https://github.com/Gerijacki/rans)** | rans is a command-line tool for encrypting and decrypting files and directories using AES-256-GCM | Go | `cli-app` `cybersecurity` `encryption` `rans` |
-| **[random_decision_maker](https://github.com/Gerijacki/random_decision_maker)** ⭐ 2 | Flipper zero app | C | — |
+| **[jacob](https://github.com/Gerijacki/jacob)** | A voice assistant for Arch + Omarchy whose brain is Claude Code. | Python | `anthropic` `arch-linux` `claude` `claude-code` |
 <!-- gen:projects:end -->
 
 ### stack
@@ -69,20 +70,20 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=8b78b2db">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=8b78b2db" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=a0818365">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=a0818365" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=ed62feee">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=ed62feee" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=dd43f77f">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=dd43f77f" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
 <!-- gen:languages:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=0813465d">
-  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=0813465d" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=b74a7cc8">
+  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=b74a7cc8" width="100%">
 </picture>
 <!-- gen:languages:end -->
 
