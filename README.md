@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=d24cb836">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=d24cb836" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=89d86b58">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=89d86b58" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -39,8 +39,9 @@
 
 <!-- gen:focus:start -->
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
+- **[anonveil](https://github.com/Gerijacki/anonveil)** `Rust` — A system-wide Tor kill switch for Arch and Debian — one command anonymizes every process on the machine, and fails closed if Tor goes down. · latest `v0.1.0`
 
-<sub>177 commits · 26 pull requests · 1 review · 9 issues · 12 repositories created, last 12 months.</sub>
+<sub>182 commits · 26 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -53,7 +54,7 @@
 | **[credweaver](https://github.com/Gerijacki/credweaver)** | CredWeaver is a fast, profile-driven credential wordlist generator built for authorized penetration testing, CTF competitions, and security research. | Python | `cupp` `hydra` `john-the-ripper` `password-generator` |
 | **[Orgit](https://github.com/Gerijacki/Orgit)** ⭐ 2 | Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup. | TypeScript | `agentic` `ai` `architecture` `automation` |
 | **[rans](https://github.com/Gerijacki/rans)** | rans is a command-line tool for encrypting and decrypting files and directories using AES-256-GCM | Go | `cli-app` `cybersecurity` `encryption` `rans` |
-| **[random_decision_maker](https://github.com/Gerijacki/random_decision_maker)** ⭐ 2 | Flipper zero app | C | — |
+| **[anonveil](https://github.com/Gerijacki/anonveil)** | A system-wide Tor kill switch for Arch and Debian — one command anonymizes every process on the machine, and fails closed if Tor goes down. | Rust | `anonymity` `arch-linux` `cli` `cybersecurity` |
 <!-- gen:projects:end -->
 
 ### stack
@@ -69,20 +70,20 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=75cbc136">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=75cbc136" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=2b9065d8">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=2b9065d8" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=1f105c5b">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=1f105c5b" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=dc174c07">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=dc174c07" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
 <!-- gen:languages:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=0813465d">
-  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=0813465d" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=af9a9187">
+  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=af9a9187" width="100%">
 </picture>
 <!-- gen:languages:end -->
 
@@ -111,7 +112,7 @@
 
 [![build](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml) [![ci](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml) [![security](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml) [![health](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml)
 
-<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-08-27. Latest release <a href="https://github.com/Gerijacki/Gerijacki/releases/tag/v2026.08.27">v2026.08.27</a> (2026-08-27). More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
+<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-08-28. Latest release <a href="https://github.com/Gerijacki/Gerijacki/releases/tag/v2026.08.27">v2026.08.27</a> (2026-08-27). More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
 
 </div>
 <!-- gen:buildinfo:end -->
