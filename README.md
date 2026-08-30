@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=8f93b392">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=8f93b392" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=4e42c87c">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=4e42c87c" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -41,7 +41,7 @@
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
 - **[anonveil](https://github.com/Gerijacki/anonveil)** `Rust` — A system-wide Tor kill switch for Arch and Debian — one command anonymizes every process on the machine, and fails closed if Tor goes down. · latest `v0.1.0`
 
-<sub>187 commits · 26 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
+<sub>189 commits · 26 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -70,20 +70,20 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=00809fef">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=00809fef" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=f34d6758">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=f34d6758" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=e7a01ffe">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=e7a01ffe" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=0f19dfad">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=0f19dfad" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
 <!-- gen:languages:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=812a5f52">
-  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=812a5f52" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=2bac3421">
+  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=2bac3421" width="100%">
 </picture>
 <!-- gen:languages:end -->
 
