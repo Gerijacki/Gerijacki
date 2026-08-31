@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=4e42c87c">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=4e42c87c" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=9e83ae09">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=9e83ae09" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -41,7 +41,7 @@
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
 - **[anonveil](https://github.com/Gerijacki/anonveil)** `Rust` — A system-wide Tor kill switch for Arch and Debian — one command anonymizes every process on the machine, and fails closed if Tor goes down. · latest `v0.1.0`
 
-<sub>189 commits · 26 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
+<sub>189 commits · 25 pull requests · 1 review · 9 issues · 12 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -70,13 +70,13 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=ec66de4b">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=ec66de4b" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=cae02eac">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=cae02eac" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=aff1b800">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=aff1b800" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=adde0310">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=adde0310" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
