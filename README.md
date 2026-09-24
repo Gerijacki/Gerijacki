@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=739e063e">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=739e063e" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=42fe56e7">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=42fe56e7" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -39,9 +39,9 @@
 
 <!-- gen:focus:start -->
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
-- **[anonveil](https://github.com/Gerijacki/anonveil)** `Rust` — A system-wide Tor kill switch for Arch and Debian — one command anonymizes every process on the machine, and fails closed if Tor goes down. · latest `v0.1.0`
+- **[mcp-guard](https://github.com/Gerijacki/mcp-guard)** `Go` — Security scanner for MCP (Model Context Protocol) servers: detects tool poisoning, prompt injection, command injection, path traversal and leaked secrets. SARIF, GitHub Action, single binary. · latest `v0.1.1`
 
-<sub>260 commits · 25 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
+<sub>268 commits · 25 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -54,7 +54,7 @@
 | **[credweaver](https://github.com/Gerijacki/credweaver)** | CredWeaver is a fast, profile-driven credential wordlist generator built for authorized penetration testing, CTF competitions, and security research. | Python | `cupp` `hydra` `john-the-ripper` `password-generator` |
 | **[Orgit](https://github.com/Gerijacki/Orgit)** ⭐ 2 | Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup. | TypeScript | `agentic` `ai` `architecture` `automation` |
 | **[rans](https://github.com/Gerijacki/rans)** | rans is a command-line tool for encrypting and decrypting files and directories using AES-256-GCM | Go | `cli-app` `cybersecurity` `encryption` `rans` |
-| **[anonveil](https://github.com/Gerijacki/anonveil)** | A system-wide Tor kill switch for Arch and Debian — one command anonymizes every process on the machine, and fails closed if Tor goes down. | Rust | `anonymity` `arch-linux` `cli` `cybersecurity` |
+| **[mcp-guard](https://github.com/Gerijacki/mcp-guard)** | Security scanner for MCP (Model Context Protocol) servers: detects tool poisoning, prompt injection, command injection, path traversal and leaked secrets. SARIF, GitHub Action, single binary. | Go | `ai-agents` `ai-security` `devsecops` `github-actions` |
 <!-- gen:projects:end -->
 
 ### stack
@@ -70,20 +70,20 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=82565ae7">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=82565ae7" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=066804e7">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=066804e7" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=a24a9daa">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=a24a9daa" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=0546fb6e">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=0546fb6e" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
 <!-- gen:languages:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=f51cbbb3">
-  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=f51cbbb3" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=bce45a15">
+  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=bce45a15" width="100%">
 </picture>
 <!-- gen:languages:end -->
 
@@ -112,7 +112,7 @@
 
 [![build](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml) [![ci](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml) [![security](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml) [![health](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml)
 
-<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-09-24. Latest release <a href="https://github.com/Gerijacki/Gerijacki/releases/tag/v2026.09.23">v2026.09.23</a> (2026-09-23). More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
+<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-09-24. Latest release <a href="https://github.com/Gerijacki/Gerijacki/releases/tag/v2026.09.24">v2026.09.24</a> (2026-09-24). More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
 
 </div>
 <!-- gen:buildinfo:end -->
