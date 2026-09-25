@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=42fe56e7">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=42fe56e7" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=df4e6db8">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=df4e6db8" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -39,9 +39,9 @@
 
 <!-- gen:focus:start -->
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
-- **[mcp-guard](https://github.com/Gerijacki/mcp-guard)** `Go` — Security scanner for MCP (Model Context Protocol) servers: detects tool poisoning, prompt injection, command injection, path traversal and leaked secrets. SARIF, GitHub Action, single binary. · latest `v0.1.1`
+- **[anonveil](https://github.com/Gerijacki/anonveil)** `Rust` — A system-wide Tor kill switch for Arch and Debian — one command anonymizes every process on the machine, and fails closed if Tor goes down. · latest `v0.1.0`
 
-<sub>268 commits · 25 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
+<sub>271 commits · 25 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -54,7 +54,7 @@
 | **[credweaver](https://github.com/Gerijacki/credweaver)** | CredWeaver is a fast, profile-driven credential wordlist generator built for authorized penetration testing, CTF competitions, and security research. | Python | `cupp` `hydra` `john-the-ripper` `password-generator` |
 | **[Orgit](https://github.com/Gerijacki/Orgit)** ⭐ 2 | Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup. | TypeScript | `agentic` `ai` `architecture` `automation` |
 | **[rans](https://github.com/Gerijacki/rans)** | rans is a command-line tool for encrypting and decrypting files and directories using AES-256-GCM | Go | `cli-app` `cybersecurity` `encryption` `rans` |
-| **[mcp-guard](https://github.com/Gerijacki/mcp-guard)** | Security scanner for MCP (Model Context Protocol) servers: detects tool poisoning, prompt injection, command injection, path traversal and leaked secrets. SARIF, GitHub Action, single binary. | Go | `ai-agents` `ai-security` `devsecops` `github-actions` |
+| **[anonveil](https://github.com/Gerijacki/anonveil)** | A system-wide Tor kill switch for Arch and Debian — one command anonymizes every process on the machine, and fails closed if Tor goes down. | Rust | `anonymity` `arch-linux` `cli` `cybersecurity` |
 <!-- gen:projects:end -->
 
 ### stack
@@ -70,20 +70,20 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=6bc9d711">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=6bc9d711" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=58c80c25">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=58c80c25" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=35be1938">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=35be1938" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=8d947c67">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=8d947c67" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
 <!-- gen:languages:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=bce45a15">
-  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=bce45a15" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=69b2594d">
+  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=69b2594d" width="100%">
 </picture>
 <!-- gen:languages:end -->
 
