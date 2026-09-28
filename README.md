@@ -70,13 +70,13 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=75c09e6a">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=75c09e6a" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=56dd7d54">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=56dd7d54" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=2704c9fa">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=2704c9fa" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=ba0bcab9">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=ba0bcab9" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
@@ -112,7 +112,7 @@
 
 [![build](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml) [![ci](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml) [![security](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml) [![health](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml)
 
-<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-09-27. Latest release <a href="https://github.com/Gerijacki/Gerijacki/releases/tag/v2026.09.27">v2026.09.27</a> (2026-09-27). More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
+<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-09-28. Latest release <a href="https://github.com/Gerijacki/Gerijacki/releases/tag/v2026.09.27">v2026.09.27</a> (2026-09-27). More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
 
 </div>
 <!-- gen:buildinfo:end -->
