@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=d7434841">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=d7434841" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=44cf6215">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=44cf6215" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -39,9 +39,9 @@
 
 <!-- gen:focus:start -->
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
-- **[mcp-guard](https://github.com/Gerijacki/mcp-guard)** `Go` — Security scanner for MCP (Model Context Protocol) servers: detects tool poisoning, prompt injection, command injection, path traversal and leaked secrets. SARIF, GitHub Action, single binary. · latest `v0.1.1`
+- **[mcp-guard](https://github.com/Gerijacki/mcp-guard)** `Go` — Security scanner for MCP (Model Context Protocol) servers: detects tool poisoning, prompt injection, command injection, path traversal and leaked secrets. SARIF, GitHub Action, single binary. · latest `v0.2.0`
 
-<sub>272 commits · 26 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
+<sub>276 commits · 26 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -70,20 +70,20 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=6107d06f">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=6107d06f" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=40452ae3">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=40452ae3" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=261a8a08">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=261a8a08" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=38be2502">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=38be2502" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
 <!-- gen:languages:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=69b2594d">
-  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=69b2594d" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=e363c99c">
+  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=e363c99c" width="100%">
 </picture>
 <!-- gen:languages:end -->
 
@@ -112,7 +112,7 @@
 
 [![build](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml) [![ci](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml) [![security](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml) [![health](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml)
 
-<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-10-03. Latest release <a href="https://github.com/Gerijacki/Gerijacki/releases/tag/v2026.10.02">v2026.10.02</a> (2026-10-02). More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
+<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-10-03. Latest release <a href="https://github.com/Gerijacki/Gerijacki/releases/tag/v2026.10.03">v2026.10.03</a> (2026-10-03). More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
 
 </div>
 <!-- gen:buildinfo:end -->
