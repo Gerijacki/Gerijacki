@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=711c6604">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=711c6604" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=51b6acd0">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=51b6acd0" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -41,7 +41,7 @@
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
 - **[mcp-guard](https://github.com/Gerijacki/mcp-guard)** `Go` — Security scanner for MCP (Model Context Protocol) servers: detects tool poisoning, prompt injection, command injection, path traversal and leaked secrets. SARIF, GitHub Action, single binary. · latest `v0.2.0`
 
-<sub>277 commits · 26 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
+<sub>280 commits · 26 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -70,13 +70,13 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=4d7e1c1b">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=4d7e1c1b" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=74d950ba">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=74d950ba" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=cc79dcda">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=cc79dcda" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=062ec732">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=062ec732" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
