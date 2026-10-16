@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=51b6acd0">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=51b6acd0" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=cf87784a">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=cf87784a" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -39,9 +39,9 @@
 
 <!-- gen:focus:start -->
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
-- **[mcp-guard](https://github.com/Gerijacki/mcp-guard)** `Go` — Security scanner for MCP (Model Context Protocol) servers: detects tool poisoning, prompt injection, command injection, path traversal and leaked secrets. SARIF, GitHub Action, single binary. · latest `v0.2.0`
+- **[WhereAreMyTokens](https://github.com/Gerijacki/WhereAreMyTokens)** `Python` — Self-hosted analytics for Claude Code subscriptions: see where your tokens go, what they'd cost on the API, and what to automate to spend less. · latest `v0.3.1`
 
-<sub>280 commits · 26 pull requests · 1 review · 9 issues · 13 repositories created, last 12 months.</sub>
+<sub>300 commits · 26 pull requests · 1 review · 9 issues · 14 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -54,7 +54,7 @@
 | **[credweaver](https://github.com/Gerijacki/credweaver)** | CredWeaver is a fast, profile-driven credential wordlist generator built for authorized penetration testing, CTF competitions, and security research. | Python | `cupp` `hydra` `john-the-ripper` `password-generator` |
 | **[Orgit](https://github.com/Gerijacki/Orgit)** ⭐ 2 | Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup. | TypeScript | `agentic` `ai` `architecture` `automation` |
 | **[rans](https://github.com/Gerijacki/rans)** | rans is a command-line tool for encrypting and decrypting files and directories using AES-256-GCM | Go | `cli-app` `cybersecurity` `encryption` `rans` |
-| **[mcp-guard](https://github.com/Gerijacki/mcp-guard)** | Security scanner for MCP (Model Context Protocol) servers: detects tool poisoning, prompt injection, command injection, path traversal and leaked secrets. SARIF, GitHub Action, single binary. | Go | `ai-agents` `ai-security` `devsecops` `github-actions` |
+| **[WhereAreMyTokens](https://github.com/Gerijacki/WhereAreMyTokens)** | Self-hosted analytics for Claude Code subscriptions: see where your tokens go, what they'd cost on the API, and what to automate to spend less. | Python | `ai-coding` `analytics` `anthropic` `claude` |
 <!-- gen:projects:end -->
 
 ### stack
@@ -70,20 +70,20 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=b8bf7083">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=b8bf7083" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=327aff28">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=327aff28" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=1b8bb290">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=1b8bb290" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=05387c26">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=05387c26" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
 <!-- gen:languages:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=e363c99c">
-  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=e363c99c" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=e5849df7">
+  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=e5849df7" width="100%">
 </picture>
 <!-- gen:languages:end -->
 
