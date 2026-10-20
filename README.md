@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=38db9463">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=38db9463" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=1c7fc094">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=1c7fc094" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -54,7 +54,7 @@
 | **[credweaver](https://github.com/Gerijacki/credweaver)** | CredWeaver is a fast, profile-driven credential wordlist generator built for authorized penetration testing, CTF competitions, and security research. | Python | `cupp` `hydra` `john-the-ripper` `password-generator` |
 | **[Orgit](https://github.com/Gerijacki/Orgit)** ⭐ 2 | Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup. | TypeScript | `agentic` `ai` `architecture` `automation` |
 | **[rans](https://github.com/Gerijacki/rans)** | rans is a command-line tool for encrypting and decrypting files and directories using AES-256-GCM | Go | `cli-app` `cybersecurity` `encryption` `rans` |
-| **[WhereAreMyTokens](https://github.com/Gerijacki/WhereAreMyTokens)** ⭐ 3 | Self-hosted analytics for Claude Code subscriptions: see where your tokens go, what they'd cost on the API, and what to automate to spend less. | Python | `ai-coding` `analytics` `anthropic` `claude` |
+| **[WhereAreMyTokens](https://github.com/Gerijacki/WhereAreMyTokens)** ⭐ 4 | Self-hosted analytics for Claude Code subscriptions: see where your tokens go, what they'd cost on the API, and what to automate to spend less. | Python | `ai-coding` `analytics` `anthropic` `claude` |
 <!-- gen:projects:end -->
 
 ### stack
