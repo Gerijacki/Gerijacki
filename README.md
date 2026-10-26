@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=862dec38">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=862dec38" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=2a4bacc6">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=2a4bacc6" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -39,9 +39,9 @@
 
 <!-- gen:focus:start -->
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
-- **[WhereAreMyTokens](https://github.com/Gerijacki/WhereAreMyTokens)** `Python` — Self-hosted analytics for Claude Code subscriptions: see where your tokens go, what they'd cost on the API, and what to automate to spend less. · latest `v0.3.1`
+- **[WhereAreMyTokens](https://github.com/Gerijacki/WhereAreMyTokens)** `Python` — Self-hosted analytics for Claude Code subscriptions: see where your tokens go, what they'd cost on the API, and what to automate to spend less. · latest `v0.4.0`
 
-<sub>295 commits · 26 pull requests · 1 review · 2 issues · 14 repositories created, last 12 months.</sub>
+<sub>302 commits · 26 pull requests · 1 review · 2 issues · 14 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -70,20 +70,20 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=2c831acb">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=2c831acb" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=b6f33241">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=b6f33241" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=63da5ab8">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=63da5ab8" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=41d1d3c3">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=41d1d3c3" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
 <!-- gen:languages:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=e5849df7">
-  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=e5849df7" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg?v=c3ecfc41">
+  <img alt="Language mix across owned repositories" src="assets/languages-light.svg?v=c3ecfc41" width="100%">
 </picture>
 <!-- gen:languages:end -->
 
