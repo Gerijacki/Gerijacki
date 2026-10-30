@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=fb339dad">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=fb339dad" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=52a0cdf9">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=52a0cdf9" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -41,7 +41,7 @@
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
 - **[WhereAreMyTokens](https://github.com/Gerijacki/WhereAreMyTokens)** `Python` — Self-hosted analytics for Claude Code subscriptions: see where your tokens go, what they'd cost on the API, and what to automate to spend less. · latest `v0.4.0`
 
-<sub>352 commits · 27 pull requests · 1 review · 2 issues · 14 repositories created, last 12 months.</sub>
+<sub>355 commits · 28 pull requests · 1 review · 2 issues · 14 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -70,13 +70,13 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=e0c0a3c4">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=e0c0a3c4" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=ec10c523">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=ec10c523" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=fd53b190">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=fd53b190" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=4386cb02">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=4386cb02" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
