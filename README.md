@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=53f05bf4">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=53f05bf4" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=6f9edc9c">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=6f9edc9c" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -54,7 +54,7 @@
 | **[credweaver](https://github.com/Gerijacki/credweaver)** | CredWeaver is a fast, profile-driven credential wordlist generator built for authorized penetration testing, CTF competitions, and security research. | Python | `cupp` `hydra` `john-the-ripper` `password-generator` |
 | **[Orgit](https://github.com/Gerijacki/Orgit)** ⭐ 2 | Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup. | TypeScript | `agentic` `ai` `architecture` `automation` |
 | **[rans](https://github.com/Gerijacki/rans)** | rans is a command-line tool for encrypting and decrypting files and directories using AES-256-GCM | Go | `cli-app` `cybersecurity` `encryption` `rans` |
-| **[WhereAreMyTokens](https://github.com/Gerijacki/WhereAreMyTokens)** ⭐ 4 | Self-hosted analytics for Claude Code subscriptions: see where your tokens go, what they'd cost on the API, and what to automate to spend less. | Python | `ai-coding` `analytics` `anthropic` `claude` |
+| **[WhereAreMyTokens](https://github.com/Gerijacki/WhereAreMyTokens)** ⭐ 5 | Self-hosted analytics for Claude Code subscriptions: see where your tokens go, what they'd cost on the API, and what to automate to spend less. | Python | `ai-coding` `analytics` `anthropic` `claude` |
 <!-- gen:projects:end -->
 
 ### stack
@@ -112,7 +112,7 @@
 
 [![build](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml) [![ci](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml) [![security](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml) [![health](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml)
 
-<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-11-16. Latest release <a href="https://github.com/Gerijacki/Gerijacki/releases/tag/v2026.11.15">v2026.11.15</a> (2026-11-15). More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
+<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-11-16. Latest release <a href="https://github.com/Gerijacki/Gerijacki/releases/tag/v2026.11.16">v2026.11.16</a> (2026-11-16). More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
 
 </div>
 <!-- gen:buildinfo:end -->
