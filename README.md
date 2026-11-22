@@ -16,8 +16,8 @@
 
 <!-- gen:snapshot:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=725bd8a9">
-  <img alt="Profile snapshot" src="assets/stats-light.svg?v=725bd8a9" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=bfcbbe75">
+  <img alt="Profile snapshot" src="assets/stats-light.svg?v=bfcbbe75" width="100%">
 </picture>
 <!-- gen:snapshot:end -->
 
@@ -41,7 +41,7 @@
 - **[Orgit](https://github.com/Gerijacki/Orgit)** `TypeScript` — Autonomous repository evolution engine: agent-driven refactors, documentation and technical-debt cleanup.
 - **[WhereAreMyTokens](https://github.com/Gerijacki/WhereAreMyTokens)** `Python` — Self-hosted analytics for Claude Code subscriptions: see where your tokens go, what they'd cost on the API, and what to automate to spend less. · latest `v0.4.0`
 
-<sub>353 commits · 28 pull requests · 1 review · 2 issues · 14 repositories created, last 12 months.</sub>
+<sub>334 commits · 28 pull requests · 1 review · 2 issues · 14 repositories created, last 12 months.</sub>
 <!-- gen:focus:end -->
 
 ### selected work
@@ -70,13 +70,13 @@
 
 <!-- gen:activity:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=de5f5245">
-  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=de5f5245" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=1db93541">
+  <img alt="Contribution activity, last 12 months" src="assets/activity-light.svg?v=1db93541" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=44a39979">
-  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=44a39979" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=2c12d639">
+  <img alt="Commit calendar, last 12 months" src="assets/heatmap-light.svg?v=2c12d639" width="100%">
 </picture>
 <!-- gen:activity:end -->
 
@@ -112,7 +112,7 @@
 
 [![build](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/readme.yml) [![ci](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/ci.yml) [![security](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/security.yml) [![health](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml/badge.svg)](https://github.com/Gerijacki/Gerijacki/actions/workflows/health.yml)
 
-<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-11-21. Latest release <a href="https://github.com/Gerijacki/Gerijacki/releases/tag/v2026.11.21">v2026.11.21</a> (2026-11-21). More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
+<sub>This page is a build artefact. Every card above is an SVG generated from the GitHub API by <a href="https://github.com/Gerijacki/Gerijacki/tree/main/src">this repository's own generator</a> and committed by <a href="https://github.com/Gerijacki/Gerijacki/blob/main/.github/workflows/readme.yml">a scheduled workflow</a> — no third-party widget services. Last generated 2026-11-22. Latest release <a href="https://github.com/Gerijacki/Gerijacki/releases/tag/v2026.11.21">v2026.11.21</a> (2026-11-21). More at <a href="https://www.gerardloriz.com">gerardloriz.com</a>.</sub>
 
 </div>
 <!-- gen:buildinfo:end -->
